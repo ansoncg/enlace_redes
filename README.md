@@ -6,5 +6,5 @@
 
 Executar:
 ```
-maker run
+make run
 ```

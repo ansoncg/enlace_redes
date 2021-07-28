@@ -1,7 +1,5 @@
 # Anderson Cardoso Gonçalves - github.com/ansoncg 
 
-# Makefile para ficar fora da pasta de estruturas
-
 # Target: Pre-requitos
 # <TAB> <como fazer>
 # $@ -> Nome do target
@@ -13,7 +11,7 @@ FLAGS_AVISO = -Wall -Wextra -Wconversion -pedantic
 FLAGS_DEBUG = -ggdb3 -O0
 FLAGS_VALGRIND = --leak-check=full --show-leak-kinds=all --track-origins=yes
 FLAGS_SAN = -fsanitize=address -fsanitize=undefined
-FLAGS_LIGA = -lSDL2 -lSDL2_image -lm
+FLAGS_LIGA = #-lm
 
 CC = gcc
 
